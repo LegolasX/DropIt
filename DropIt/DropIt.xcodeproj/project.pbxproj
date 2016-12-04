@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		A0ECFDEC1DF410160045CF6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECFDEB1DF410160045CF6A /* AppDelegate.swift */; };
-		A0ECFDEE1DF410160045CF6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECFDED1DF410160045CF6A /* ViewController.swift */; };
 		A0ECFDF11DF410160045CF6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0ECFDEF1DF410160045CF6A /* Main.storyboard */; };
 		A0ECFDF31DF410160045CF6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0ECFDF21DF410160045CF6A /* Assets.xcassets */; };
 		A0ECFDF61DF410160045CF6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0ECFDF41DF410160045CF6A /* LaunchScreen.storyboard */; };
+		A0ECFDFF1DF4145D0045CF6A /* DropItViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECFDFE1DF4145D0045CF6A /* DropItViewController.swift */; };
+		A0ECFE011DF4147F0045CF6A /* DropItView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECFE001DF4147F0045CF6A /* DropItView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A0ECFDE81DF410160045CF6A /* DropIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0ECFDEB1DF410160045CF6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0ECFDED1DF410160045CF6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0ECFDF01DF410160045CF6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0ECFDF21DF410160045CF6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0ECFDF51DF410160045CF6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0ECFDF71DF410160045CF6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0ECFDFE1DF4145D0045CF6A /* DropItViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropItViewController.swift; sourceTree = "<group>"; };
+		A0ECFE001DF4147F0045CF6A /* DropItView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropItView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		A0ECFDEA1DF410160045CF6A /* DropIt */ = {
 			isa = PBXGroup;
 			children = (
-				A0ECFDEB1DF410160045CF6A /* AppDelegate.swift */,
-				A0ECFDED1DF410160045CF6A /* ViewController.swift */,
+				A0ECFDFD1DF410D00045CF6A /* Supporting Files */,
 				A0ECFDEF1DF410160045CF6A /* Main.storyboard */,
+				A0ECFDFE1DF4145D0045CF6A /* DropItViewController.swift */,
+				A0ECFE001DF4147F0045CF6A /* DropItView.swift */,
+			);
+			path = DropIt;
+			sourceTree = "<group>";
+		};
+		A0ECFDFD1DF410D00045CF6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0ECFDEB1DF410160045CF6A /* AppDelegate.swift */,
 				A0ECFDF21DF410160045CF6A /* Assets.xcassets */,
 				A0ECFDF41DF410160045CF6A /* LaunchScreen.storyboard */,
 				A0ECFDF71DF410160045CF6A /* Info.plist */,
 			);
-			path = DropIt;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0ECFDEE1DF410160045CF6A /* ViewController.swift in Sources */,
+				A0ECFDFF1DF4145D0045CF6A /* DropItViewController.swift in Sources */,
 				A0ECFDEC1DF410160045CF6A /* AppDelegate.swift in Sources */,
+				A0ECFE011DF4147F0045CF6A /* DropItView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
